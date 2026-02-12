@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
-.material-symbols-outlined {
-  font-size: inherit !important;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  .material-symbols-outlined {
+    @apply cursor-pointer align-middle text-gray-500 dark:text-gray-400;
+  }
 }
