@@ -1,6 +1,0 @@
-{
-  "name": "Morris",
-  "short_name": "Morris",
-  "display": "standalone",
-  "icons": [{ "src": "icon.png", "type": "image/png", "sizes": "192x192" }]
-}
