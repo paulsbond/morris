@@ -13,7 +13,7 @@ const root = document.getElementById("root")!;
 createRoot(root).render(
   <HashRouter>
     <StrictMode>
-      <div className="flex flex-col gap-4 p-4 text-gray-900 dark:text-gray-100">
+      <div className="flex flex-col gap-4 p-4 text-neutral-800 dark:text-neutral-200">
         <ThemeButton />
         <Routes>
           <Route index element={<Home />} />
