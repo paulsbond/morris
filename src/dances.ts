@@ -1,8 +1,12 @@
+import { ComponentType } from "react";
+import { BlueBells } from "./dances/BlueBells";
+
 export interface Dance {
   name: string;
   key: string;
   stick?: boolean;
   hanky?: boolean;
+  component?: ComponentType;
 }
 
 export interface Tradition {
@@ -20,6 +24,7 @@ export const traditions: Tradition[] = [
         name: "Blue Bells of Scotland",
         key: "blue-bells-of-scotland",
         stick: true,
+        component: BlueBells,
       },
       {
         name: "Haste to the Wedding",
