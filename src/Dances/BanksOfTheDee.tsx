@@ -1,4 +1,4 @@
-import { Dance } from "../Dances";
+import { Dance } from "../Dance";
 
 export const banksOfTheDee: Dance = {
   name: "Banks of the Dee",

@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { HashRouter, Route, Routes } from "react-router";
 import { ThemeButton } from "./ThemeButton";
-import { dances } from "./Dances";
+import { dances } from "./Dance";
 import { DancePage } from "./DancePage";
 import { HomePage } from "./HomePage";
 

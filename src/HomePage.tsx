@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { dances } from "./Dances";
+import { dances } from "./Dance";
 
 const grouped = Object.groupBy(dances, (d) => d.tradition);
 
