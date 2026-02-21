@@ -4,88 +4,77 @@ import { BlueBells } from "./dances/BlueBells";
 export interface Dance {
   name: string;
   key: string;
-  stick?: boolean;
-  hanky?: boolean;
+  tradition: string;
   component?: ComponentType;
 }
 
-export interface Tradition {
-  name: string;
-  key: string;
-  dances: Dance[];
-}
-
-export const traditions: Tradition[] = [
+export const dances: Dance[] = [
   {
-    name: "Adderbury",
-    key: "adderbury",
-    dances: [
-      {
-        name: "Blue Bells of Scotland",
-        key: "blue-bells-of-scotland",
-        stick: true,
-        component: BlueBells,
-      },
-      {
-        name: "Haste to the Wedding",
-        key: "haste-to-the-wedding",
-        hanky: true,
-      },
-      { name: "Lads A'Bunchum", key: "lads-a-bunchum", stick: true },
-      { name: "Lollipop Man", key: "lollipop-man", hanky: true },
-      { name: "Sweet Jenny Jones", key: "sweet-jenny-jones", stick: true },
-    ],
+    name: "Balance the Straw",
+    key: "balance-the-straw",
+    tradition: "Fieldtown",
+  },
+  { name: "Banks of the Dee", key: "banks-of-the-dee", tradition: "Fieldtown" },
+  { name: "Black Joke", key: "black-joke", tradition: "Bledington" },
+  {
+    name: "Blue Bells of Scotland",
+    key: "blue-bells-of-scotland",
+    tradition: "Adderbury",
+    component: BlueBells,
+  },
+  { name: "Constant Billy", key: "constant-billy", tradition: "Headington" },
+  {
+    name: "Haste to the Wedding",
+    key: "haste-to-the-wedding",
+    tradition: "Adderbury",
   },
   {
-    name: "Bampton",
-    key: "bampton",
-    dances: [
-      { name: "Highland Mary", key: "highland-mary", hanky: true },
-      { name: "Old Tom of Oxford", key: "old-tom-of-oxford", hanky: true },
-      { name: "The Rose Tree", key: "the-rose-tree", hanky: true },
-    ],
+    name: "Highland Mary",
+    key: "highland-mary",
+    tradition: "Bampton",
+  },
+  { name: "Jenny Lind", key: "jenny-lind", tradition: "Lichfield" },
+  {
+    name: "Jockey to the Fair",
+    key: "jockey-to-the-fair",
+    tradition: "Brackley",
   },
   {
-    name: "Bledington",
-    key: "bledington",
-    dances: [
-      { name: "Black Joke", key: "black-joke", stick: true },
-      { name: "Skirmish", key: "skirmish", stick: true },
-      { name: "William and Nancy", key: "william-and-nancy", hanky: true },
-      { name: "Young Collins", key: "young-collins", stick: true },
-    ],
+    name: "Lads A'Bunchum",
+    key: "lads-a-bunchum",
+    tradition: "Adderbury",
   },
   {
-    name: "Brackley",
-    key: "brackley",
-    dances: [
-      { name: "Jockey to the Fair", key: "jockey-to-the-fair", hanky: true },
-    ],
+    name: "Lollipop Man",
+    key: "lollipop-man",
+    tradition: "Adderbury",
   },
   {
-    name: "Fieldtown",
-    key: "fieldtown",
-    dances: [
-      { name: "Balance the Straw", key: "balance-the-straw", stick: true },
-      { name: "Banks of the Dee", key: "banks-of-the-dee", hanky: true },
-      { name: "Valentine", key: "valentine", hanky: true },
-    ],
+    name: "Old Tom of Oxford",
+    key: "old-tom-of-oxford",
+    tradition: "Bampton",
+  },
+  { name: "Skirmish", key: "skirmish", tradition: "Bledington" },
+  {
+    name: "Sweet Jenny Jones",
+    key: "sweet-jenny-jones",
+    tradition: "Adderbury",
   },
   {
-    name: "Headington",
-    key: "headington",
-    dances: [{ name: "Constant Billy", key: "constant-billy", stick: true }],
+    name: "The Rose Tree",
+    key: "the-rose-tree",
+    tradition: "Bampton",
+  },
+  { name: "Valentine", key: "valentine", tradition: "Fieldtown" },
+  {
+    name: "Vandals of Hammerwich",
+    key: "vandals-of-hammerwich",
+    tradition: "Lichfield",
   },
   {
-    name: "Lichfield",
-    key: "lichfield",
-    dances: [
-      { name: "Jenny Lind", key: "jenny-lind", stick: true },
-      {
-        name: "Vandals of Hammerwich",
-        key: "vandals-of-hammerwich",
-        stick: true,
-      },
-    ],
+    name: "William and Nancy",
+    key: "william-and-nancy",
+    tradition: "Bledington",
   },
+  { name: "Young Collins", key: "young-collins", tradition: "Bledington" },
 ];
