@@ -29,7 +29,7 @@ function Figures({ figures }: { figures: string[] }) {
         <p
           key={index}
           className={
-            figure === "Chorus"
+            figure.includes("Chorus")
               ? "text-neutral-600 italic dark:text-neutral-400"
               : "font-bold"
           }
