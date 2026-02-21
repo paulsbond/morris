@@ -1,4 +1,4 @@
-import { Dance } from "./dances";
+import { Dance } from "./Dances";
 
 function BasicInfo({ info }: { info: string[] }) {
   return (
