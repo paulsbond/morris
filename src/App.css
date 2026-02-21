@@ -2,6 +2,21 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --color-pine: #355143;
+  --color-pine-50: #f5f8f6;
+  --color-pine-100: #ddeae2;
+  --color-pine-200: #bbd4c5;
+  --color-pine-300: #91b7a1;
+  --color-pine-400: #6a977e;
+  --color-pine-500: #507c65;
+  --color-pine-600: #3e6350;
+  --color-pine-700: #355143;
+  --color-pine-800: #2d4238;
+  --color-pine-900: #293831;
+  --color-pine-950: #141f1a;
+}
+
 @layer base {
   .material-symbols-outlined {
     @apply cursor-pointer align-middle text-neutral-500 dark:text-neutral-400;
