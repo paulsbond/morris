@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Route, Routes } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import { ThemeButton } from "./ThemeButton";
 import { traditions } from "./dances";
 import { Dance } from "./pages/Dance";
@@ -13,7 +13,7 @@ import "material-symbols/outlined.css";
 const root = document.getElementById("root")!;
 
 createRoot(root).render(
-  <BrowserRouter>
+  <HashRouter>
     <StrictMode>
       <div className="flex flex-col gap-4 p-4 text-neutral-800 dark:text-neutral-200">
         <ThemeButton />
@@ -34,5 +34,5 @@ createRoot(root).render(
         </Routes>
       </div>
     </StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
 );
