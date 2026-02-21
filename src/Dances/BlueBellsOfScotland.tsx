@@ -21,7 +21,7 @@ export const blueBellsOfScotland: Dance = {
     "Chorus",
     "Hands around",
     "Chorus",
-    "Adderbury Hay",
+    "Adderbury hay",
     "Chorus",
     "Doubles",
   ],

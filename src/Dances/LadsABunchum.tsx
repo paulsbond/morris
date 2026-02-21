@@ -23,7 +23,7 @@ export const ladsABunchum: Dance = {
     "Chorus (doubles)",
     "Hands around",
     "Chorus (singles)",
-    "Adderbury Hay",
+    "Adderbury hay",
     "Chorus (over heads)",
   ],
 };
