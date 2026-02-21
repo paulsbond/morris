@@ -1,3 +1,5 @@
+import { Video } from "../components/Video";
+
 function Heading2({ children }: { children: React.ReactNode }) {
   return <h2 className="mb-1 text-2xl font-bold">{children}</h2>;
 }
@@ -35,13 +37,7 @@ export function BlueBells() {
         <li className="italic">Chorus</li>
         <li className="font-bold">Doubles</li>
       </ol>
-      <iframe
-        className="aspect-video max-w-lg"
-        src="https://www.youtube-nocookie.com/embed/L0GF4xRvB1Y?si=a92IEH6fz0IT60LY"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      ></iframe>
+      <Video id="L0GF4xRvB1Y" />
     </>
   );
 }
