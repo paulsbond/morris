@@ -1,9 +1,9 @@
 import { Link } from "react-router";
-import { dances } from "../dances";
+import { dances } from "./dances";
 
 const grouped = Object.groupBy(dances, (d) => d.tradition);
 
-export function Home() {
+export function HomePage() {
   return (
     <main className="m-auto mb-6 flex max-w-7xl flex-col gap-4">
       {Object.keys(grouped)
