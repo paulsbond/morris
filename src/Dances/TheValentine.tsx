@@ -1,8 +1,8 @@
 import { Dance } from "../Dance";
 
-export const valentine: Dance = {
-  name: "Valentine",
-  key: "valentine",
+export const theValentine: Dance = {
+  name: "The Valentine",
+  key: "the-valentine",
   tradition: "Fieldtown",
   info: ["Hankies", "Double step", "Outside foot start"],
   figures: [

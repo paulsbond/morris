@@ -8,12 +8,12 @@ import { highlandMary } from "./Dances/HighlandMary";
 import { jennyLind } from "./Dances/JennyLind";
 import { jockeyToTheFair } from "./Dances/JockeyToTheFair";
 import { ladsABunchum } from "./Dances/LadsABunchum";
-import { lollipopMan } from "./Dances/LollipopMan";
+import { theLollipopMan } from "./Dances/TheLollipopMan";
 import { oldTomOfOxford } from "./Dances/OldTomOfOxford";
 import { skirmish } from "./Dances/Skirmish";
 import { sweetJennyJones } from "./Dances/SweetJennyJones";
 import { theRoseTree } from "./Dances/TheRoseTree";
-import { valentine } from "./Dances/Valentine";
+import { theValentine } from "./Dances/TheValentine";
 import { vandalsOfHammerwich } from "./Dances/VandalsOfHammerwich";
 import { williamAndNancy } from "./Dances/WilliamAndNancy";
 import { youngCollins } from "./Dances/YoungCollins";
@@ -39,12 +39,12 @@ export const dances: Dance[] = [
   jennyLind,
   jockeyToTheFair,
   ladsABunchum,
-  lollipopMan,
+  theLollipopMan,
   oldTomOfOxford,
   skirmish,
   sweetJennyJones,
   theRoseTree,
-  valentine,
+  theValentine,
   vandalsOfHammerwich,
   williamAndNancy,
   youngCollins,
