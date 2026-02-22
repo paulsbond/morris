@@ -16,4 +16,5 @@ export const valentine: Dance = {
     "Chorus (upright RTBs)",
     "Hay",
   ],
+  videos: ["c7x4YrNrgR8"],
 };

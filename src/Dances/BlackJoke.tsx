@@ -15,4 +15,5 @@ export const blackJoke: Dance = {
     "Rounds",
     "Chorus",
   ],
+  videos: ["2MDkR5GxOSA"],
 };

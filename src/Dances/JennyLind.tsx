@@ -17,4 +17,5 @@ export const jennyLind: Dance = {
     "Lichfield hay",
     "Chorus",
   ],
+  videos: ["Ijk0V3QWyDY"],
 };

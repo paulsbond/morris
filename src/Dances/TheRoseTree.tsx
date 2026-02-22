@@ -14,4 +14,5 @@ export const theRoseTree: Dance = {
     "Chorus (change places)",
     "Rounds",
   ],
+  videos: ["UkzS8JPtgQE"],
 };

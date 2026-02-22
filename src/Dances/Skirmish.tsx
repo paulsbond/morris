@@ -15,4 +15,5 @@ export const skirmish: Dance = {
     "Rounds",
     "Chorus",
   ],
+  videos: ["FtEMQ0dksDQ"],
 };

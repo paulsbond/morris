@@ -15,4 +15,5 @@ export const youngCollins: Dance = {
     "Rounds",
     "Chorus",
   ],
+  videos: ["BTN43LMSXy8"],
 };

@@ -15,4 +15,5 @@ export const constantBilly: Dance = {
     "Hay",
     "Chorus",
   ],
+  videos: ["7hclfqDLGYM"],
 };

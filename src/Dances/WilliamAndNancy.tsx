@@ -15,4 +15,5 @@ export const williamAndNancy: Dance = {
     "Rounds",
     "Chorus (RTBs)",
   ],
+  videos: ["3p3Utsy6k8o"],
 };

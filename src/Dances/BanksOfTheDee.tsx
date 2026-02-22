@@ -16,4 +16,5 @@ export const banksOfTheDee: Dance = {
     "Chorus (upright RTBs)",
     "Hay",
   ],
+  videos: ["prx-jVXTt8Q"],
 };

@@ -21,4 +21,5 @@ export const vandalsOfHammerwich: Dance = {
     "Lichfield hay",
     "Chorus",
   ],
+  videos: ["P0-a-JcmZVY"],
 };

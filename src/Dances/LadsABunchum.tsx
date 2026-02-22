@@ -26,4 +26,5 @@ export const ladsABunchum: Dance = {
     "Adderbury hay",
     "Chorus (over heads)",
   ],
+  videos: ["pZ1MoURMc6Y"],
 };
