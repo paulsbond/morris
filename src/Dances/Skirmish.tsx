@@ -14,6 +14,5 @@ export const skirmish: Dance = {
     "Chorus",
     "Rounds",
     "Chorus",
-    "Hay",
   ],
 };

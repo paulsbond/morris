@@ -14,6 +14,5 @@ export const youngCollins: Dance = {
     "Chorus",
     "Rounds",
     "Chorus",
-    "Hay",
   ],
 };

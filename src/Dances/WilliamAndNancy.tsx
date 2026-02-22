@@ -14,6 +14,5 @@ export const williamAndNancy: Dance = {
     "Chorus (beetle crushers)",
     "Rounds",
     "Chorus (RTBs)",
-    "Hay",
   ],
 };

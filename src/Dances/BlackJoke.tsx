@@ -14,6 +14,5 @@ export const blackJoke: Dance = {
     "Chorus",
     "Rounds",
     "Chorus",
-    "Hay",
   ],
 };
