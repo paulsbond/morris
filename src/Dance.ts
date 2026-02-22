@@ -25,7 +25,7 @@ export interface Dance {
   info?: string[];
   song?: string[];
   figures?: string[];
-  video?: string;
+  videos?: string[];
 }
 
 export const dances: Dance[] = [

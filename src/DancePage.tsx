@@ -62,7 +62,7 @@ export function DancePage({ dance }: { dance: Dance }) {
       {dance.song && <Song song={dance.song} />}
       <hr className="h-px w-full border-0 bg-neutral-400 dark:bg-neutral-600" />
       {dance.figures && <Figures figures={dance.figures} />}
-      {dance.video && <Video id={dance.video} />}
+      {dance.videos && dance.videos.map((id) => <Video key={id} id={id} />)}
     </main>
   );
 }

@@ -25,5 +25,5 @@ export const blueBellsOfScotland: Dance = {
     "Chorus",
     "Doubles",
   ],
-  video: "L0GF4xRvB1Y",
+  videos: ["L0GF4xRvB1Y", "q6ufbu5qL0M"],
 };
