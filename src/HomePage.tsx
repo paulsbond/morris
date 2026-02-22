@@ -14,6 +14,7 @@ export function HomePage() {
             <div className="flex flex-wrap justify-center gap-4 align-middle">
               {grouped[tradition]!.map((dance) => (
                 <Link
+                  key={dance.key}
                   className="bg-pine-200 dark:bg-pine-800 rounded-2xl px-4 py-2"
                   to={`/${dance.key}`}
                 >
