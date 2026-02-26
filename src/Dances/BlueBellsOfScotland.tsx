@@ -7,7 +7,7 @@ export const blueBellsOfScotland: Dance = {
   info: ["Long stick", "Double step", "Right foot start"],
   song: [
     "Oh where, tell me where, has my highland laddie gone?",
-    "He's gone to the war with his frilly knickers on.",
+    "He's gone to the war with his furry knickers on.",
   ],
   figures: [
     "Walk around singing",
