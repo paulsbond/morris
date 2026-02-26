@@ -11,9 +11,9 @@ export const williamAndNancy: Dance = {
     "Half gyp",
     "Chorus (flurry capers)",
     "Whole gyp",
-    "Chorus (beetle crushers)",
-    "Rounds",
     "Chorus (RTBs)",
+    "Rounds",
+    "Chorus (cross capers)",
   ],
-  videos: ["3p3Utsy6k8o"],
+  videos: ["n-vi1OU0FoA", "3p3Utsy6k8o"],
 };
