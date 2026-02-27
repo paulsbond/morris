@@ -14,7 +14,7 @@ export const theValentine: Dance = {
     "Chorus (beetle crushers)",
     "Fieldtown rounds",
     "Chorus (upright RTBs)",
-    "Hay",
+    "Hey",
   ],
   videos: ["c7x4YrNrgR8"],
 };

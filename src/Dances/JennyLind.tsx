@@ -14,7 +14,7 @@ export const jennyLind: Dance = {
     "Chorus",
     "Heading down",
     "Chorus",
-    "Lichfield hay",
+    "Lichfield hey",
     "Chorus",
   ],
   videos: ["Ijk0V3QWyDY"],

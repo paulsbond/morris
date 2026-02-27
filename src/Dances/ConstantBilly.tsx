@@ -12,7 +12,7 @@ export const constantBilly: Dance = {
     "Chorus",
     "Crossover",
     "Chorus",
-    "Hay",
+    "Hey",
     "Chorus",
   ],
   videos: ["7hclfqDLGYM"],

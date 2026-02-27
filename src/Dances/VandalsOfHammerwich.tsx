@@ -18,7 +18,7 @@ export const vandalsOfHammerwich: Dance = {
     "Chorus",
     "Heading down",
     "Chorus",
-    "Lichfield hay",
+    "Lichfield hey",
     "Chorus",
   ],
   videos: ["P0-a-JcmZVY"],

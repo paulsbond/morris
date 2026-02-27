@@ -23,7 +23,7 @@ export const ladsABunchum: Dance = {
     "Chorus (doubles)",
     "Hands around",
     "Chorus (singles)",
-    "Adderbury hay",
+    "Adderbury hey",
     "Chorus (over heads)",
   ],
   videos: ["pZ1MoURMc6Y"],

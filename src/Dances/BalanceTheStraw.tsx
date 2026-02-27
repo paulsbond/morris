@@ -14,7 +14,7 @@ export const balanceTheStraw: Dance = {
     "Chorus",
     "Fieldtown rounds",
     "Chorus",
-    "Hay",
+    "Hey",
   ],
   videos: ["Y7CWUAhP6iM"],
 };

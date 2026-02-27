@@ -14,7 +14,7 @@ export const banksOfTheDee: Dance = {
     "Chorus (beetle crushers)",
     "Fieldtown rounds",
     "Chorus (upright RTBs)",
-    "Hay",
+    "Hey",
   ],
   videos: ["prx-jVXTt8Q"],
 };
