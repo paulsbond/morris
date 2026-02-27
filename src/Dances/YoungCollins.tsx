@@ -13,7 +13,7 @@ export const youngCollins: Dance = {
     "Whole gyp",
     "Chorus",
     "Rounds",
-    "Chorus",
+    "Chorus (end with big stick)",
   ],
   videos: ["BTN43LMSXy8"],
 };
