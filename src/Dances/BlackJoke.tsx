@@ -12,8 +12,8 @@ export const blackJoke: Dance = {
     "Chorus",
     "Whole gyp",
     "Chorus",
-    "Rounds",
+    "Rounds (two places)",
     "Chorus",
   ],
-  videos: ["2MDkR5GxOSA"],
+  videos: ["gF0Lm1R1uZg", "2MDkR5GxOSA"],
 };
