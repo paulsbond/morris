@@ -7,7 +7,7 @@ export const banksOfTheDee: Dance = {
   info: ["Hankies", "Double step", "Outside foot start"],
   figures: [
     "Foot up",
-    "Chorus (salutes)",
+    "Chorus (waves)",
     "Half gyp",
     "Chorus (galleys)",
     "Back to back",
