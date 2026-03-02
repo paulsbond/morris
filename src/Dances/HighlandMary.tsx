@@ -15,5 +15,5 @@ export const highlandMary: Dance = {
     "Rounds",
     "Chorus",
   ],
-  videos: ["i2N_0ogZXBQ"],
+  videos: ["P4A2_m6VoH8", "i2N_0ogZXBQ"],
 };
