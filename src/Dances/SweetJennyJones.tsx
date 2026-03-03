@@ -24,5 +24,5 @@ export const sweetJennyJones: Dance = {
     "Adderbury hey",
     "Chorus",
   ],
-  videos: ["qrLoHduE7Bk"],
+  videos: ["r98f4QLdOds", "qrLoHduE7Bk"],
 };
