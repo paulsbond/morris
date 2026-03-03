@@ -15,5 +15,5 @@ export const oldTomOfOxford: Dance = {
     "Rounds",
     "Chorus",
   ],
-  videos: ["9zhhJ2sZUUQ"],
+  videos: ["VgYDj4CTXEc", "9zhhJ2sZUUQ"],
 };
