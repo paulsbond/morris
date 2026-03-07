@@ -16,5 +16,5 @@ export const theValentine: Dance = {
     "Chorus (upright RTBs)",
     "Hey",
   ],
-  videos: ["c7x4YrNrgR8"],
+  videos: ["D73TCxaKK_s", "c7x4YrNrgR8"],
 };
