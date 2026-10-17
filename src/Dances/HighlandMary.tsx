@@ -16,4 +16,5 @@ export const highlandMary: Dance = {
     "Chorus",
   ],
   videos: ["P4A2_m6VoH8", "i2N_0ogZXBQ"],
+  retired: true,
 };

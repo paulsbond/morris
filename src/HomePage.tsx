@@ -15,7 +15,11 @@ export function HomePage() {
               {grouped[tradition]!.map((dance) => (
                 <Link
                   key={dance.key}
-                  className="bg-pine-200 dark:bg-pine-800 rounded-2xl px-4 py-2"
+                  className={`${
+                    dance.retired
+                      ? "dark:neutral-gray-400 bg-neutral-200 text-neutral-500 dark:bg-neutral-700"
+                      : "bg-pine-200 dark:bg-pine-800"
+                  } rounded-2xl px-4 py-2`}
                   to={`/${dance.key}`}
                 >
                   {dance.name}

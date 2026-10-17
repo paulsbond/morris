@@ -8,10 +8,12 @@ import { highlandMary } from "./Dances/HighlandMary";
 import { jennyLind } from "./Dances/JennyLind";
 import { jockeyToTheFair } from "./Dances/JockeyToTheFair";
 import { ladsABunchum } from "./Dances/LadsABunchum";
-import { theLollipopMan } from "./Dances/TheLollipopMan";
+import { lassOfRichmondHill } from "./Dances/LassOfRichmondHill";
+import { laudnamBunches } from "./Dances/LaudnamBunches";
 import { oldTomOfOxford } from "./Dances/OldTomOfOxford";
 import { skirmish } from "./Dances/Skirmish";
 import { sweetJennyJones } from "./Dances/SweetJennyJones";
+import { theLollipopMan } from "./Dances/TheLollipopMan";
 import { theRoseTree } from "./Dances/TheRoseTree";
 import { theValentine } from "./Dances/TheValentine";
 import { vandalsOfHammerwich } from "./Dances/VandalsOfHammerwich";
@@ -26,6 +28,7 @@ export interface Dance {
   song?: string[];
   figures?: string[];
   videos?: string[];
+  retired?: boolean;
 }
 
 export const dances: Dance[] = [
@@ -39,10 +42,12 @@ export const dances: Dance[] = [
   jennyLind,
   jockeyToTheFair,
   ladsABunchum,
-  theLollipopMan,
+  lassOfRichmondHill,
+  laudnamBunches,
   oldTomOfOxford,
   skirmish,
   sweetJennyJones,
+  theLollipopMan,
   theRoseTree,
   theValentine,
   vandalsOfHammerwich,
